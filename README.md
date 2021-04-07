@@ -5,7 +5,13 @@ Clase 01 (Introducción)
 -¿En qué se diferencian con las arquitectura monolíticas?
 
 Clase 02 (Eureka Server)
--¿Qué es un servidor de configuración centralizada?
+-¿Qué es un servidor de registro y descubrimiento?
 -Creando nuestros primeros microservicios
 -Registrando nuestros microservicios en Eureka Server
 -Conociendo los endpoints de Eureka Server
+
+Clase 03 (Spring Cloud Config)
+-¿Qué es un servidor de configuración centralizada?
+-Obteniendo los archivos de configuración(.properties, .yml) de nuestros microservicios desde un repositorio
+-Uso de patterns, profile y labels
+-Usando actuator para refrescar beans
