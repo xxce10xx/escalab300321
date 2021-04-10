@@ -28,8 +28,8 @@ public class ProductoController
 	@Autowired
 	ProductoRepository productoRepository;
 	
-//	@Value("${server.port}")
-//	private String puerto;
+	@Value("${server.port}")
+	private String puerto;
 	
 	@Autowired
 	private MongoTemplate mongoTemplate;
@@ -77,7 +77,7 @@ public class ProductoController
 	{
 		Optional<Producto> prod = productoRepository.findById(codigo);
 		Producto prodTemp = prod.get();
-//		prodTemp.setPort(puerto);
+		prodTemp.setPort(puerto);
 		return prod;
 	}
 	

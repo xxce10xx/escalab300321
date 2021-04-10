@@ -15,3 +15,8 @@ Clase 03 (Spring Cloud Config)
 -Obteniendo los archivos de configuración(.properties, .yml) de nuestros microservicios desde un repositorio
 -Uso de patterns, profile y labels
 -Usando actuator para refrescar beans
+
+Clase 04 (JCE, Jasypt, Ribbon)
+-Encriptación estática de propiedades de configuración con JCE
+-Encriptación estática de propiedades de configuración con Jasypt (proyecto zprueba)
+-Balanceo de carga de lado del cliente con Ribbon

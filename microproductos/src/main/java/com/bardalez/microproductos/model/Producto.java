@@ -20,8 +20,8 @@ public class Producto {
 	private Integer unidades;
 	private Double precioUnitario;
 	private String descripcion;
-//	@Transient
-//	private String port;
+	@Transient
+	private String port;
 	
 	public Producto() {}
 
@@ -83,11 +83,11 @@ public class Producto {
 		this.descripcion = descripcion;
 	}
 
-//	public String getPort() {
-//		return port;
-//	}
-//
-//	public void setPort(String port) {
-//		this.port = port;
-//	}
+	public String getPort() {
+		return port;
+	}
+
+	public void setPort(String port) {
+		this.port = port;
+	}
 }
