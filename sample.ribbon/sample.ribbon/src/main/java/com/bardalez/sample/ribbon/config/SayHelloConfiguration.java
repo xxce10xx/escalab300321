@@ -20,13 +20,13 @@ public class SayHelloConfiguration {
 
 	@Bean
 	public IPing ribbonPing(IClientConfig config) {
-		return new PingUrl();
-		//return new NoOpPing();
+		//return new PingUrl();
+		return new NoOpPing();
 	}
 
 	@Bean
 	public IRule ribbonRule(IClientConfig config) {
-		return new AvailabilityFilteringRule();
+		return new MyRule();
 	}
 	
 	@Bean

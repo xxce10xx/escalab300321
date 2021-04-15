@@ -6,8 +6,8 @@ server:
   port: 8888
   
 
-#ribbon:
-  #eureka:
-    #enabled: false
+ribbon:
+  eureka:
+    enabled: false
 
-#eureka:  #client:    #register-with-eureka: false
+eureka:  client:    register-with-eureka: false

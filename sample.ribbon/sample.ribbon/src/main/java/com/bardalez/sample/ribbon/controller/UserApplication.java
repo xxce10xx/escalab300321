@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 import com.bardalez.sample.ribbon.config.SayHelloConfiguration;
 
 @RestController
-@RibbonClient(name = "servicio-catalogo", configuration = SayHelloConfiguration.class)
+@RibbonClient(name = "servicio-catalogo2", configuration = SayHelloConfiguration.class)
 public class UserApplication {
 
 	@Bean
@@ -25,7 +25,7 @@ public class UserApplication {
 
 	@RequestMapping("/prod")
 	public String hi(@RequestParam(value = "codigo", defaultValue = "1") String codigo) {
-		String prodTemp = this.restTemplate.getForObject("http://servicio-catalogo/producto/"+codigo, String.class);
+		String prodTemp = this.restTemplate.getForObject("http://servicio-catalogo2/producto/"+codigo, String.class);
 		return prodTemp;
 	}
 

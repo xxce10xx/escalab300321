@@ -57,7 +57,8 @@ public class CestaController {
 		
 	}
 	
-	@HystrixCommand(fallbackMethod = "fallbackMethod2")
+	@HystrixCommand(fallbackMethod = "fallbackMethod2", commandProperties = {
+            @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "10")})
 	@GetMapping("/producto/{codigo}")
 	public Producto getProducto(@PathVariable String codigo)
 	{
@@ -74,7 +75,7 @@ public class CestaController {
 //		return prod;
 //		//return new Producto("0","Articulo de prueba","prueba",1, 38.5, "dasdasd");
 //	}
-//	
+	
 	private Producto fallbackMethod2(String codigo) {
 		return new Producto("0","Articulo de prueba","prueba",1, 38.5, "dasdasd");
 	}

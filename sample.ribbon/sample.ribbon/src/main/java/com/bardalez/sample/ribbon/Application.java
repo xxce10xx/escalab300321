@@ -53,19 +53,19 @@ public class Application implements CommandLineRunner {
 //	        System.out.println(s);
 //	    }
 
-	    ConfigurationManager.getConfigInstance().setProperty("my-client.ribbon.listOfServers", "localhost:8080,localhost:8081");
-	    ConfigurationManager.getConfigInstance().setProperty("my-client.ribbon.NFLoadBalancerRuleClassName", MyRule.class.getName());
-	    System.out.println("List of services:" + ConfigurationManager.getConfigInstance().getProperty("my-client.ribbon.listOfServers"));
-	    
-	    RestClient client = (RestClient) ClientFactory.getNamedClient("my-client");
-	    HttpRequest request = HttpRequest.newBuilder().uri(new URI("/producto/1")).build();
-	    for (int i = 0; i < 10; i++) {
-	        HttpResponse response = client.executeWithLoadBalancer(request);
-	        String json = response.getEntity(String.class);
-	        System.out.println(json);
-	    }
-	    
-	    System.out.println(client.getServerStats(new Server("localhost:8080")));
-	    System.out.println(client.getServerStats(new Server("localhost:8081")));		
+//	    ConfigurationManager.getConfigInstance().setProperty("my-client2.ribbon.listOfServers", "localhost:8080,localhost:8081");
+//	    ConfigurationManager.getConfigInstance().setProperty("my-client2.ribbon.NFLoadBalancerRuleClassName", MyRule.class.getName());
+//	    System.out.println("List of services:" + ConfigurationManager.getConfigInstance().getProperty("my-client.ribbon.listOfServers"));
+//	    
+//	    RestClient client = (RestClient) ClientFactory.getNamedClient("my-client");
+//	    HttpRequest request = HttpRequest.newBuilder().uri(new URI("/producto/1")).build();
+//	    for (int i = 0; i < 10; i++) {
+//	        HttpResponse response = client.executeWithLoadBalancer(request);
+//	        String json = response.getEntity(String.class);
+//	        System.out.println(json);
+//	    }
+//	    
+//	    System.out.println(client.getServerStats(new Server("localhost:8080")));
+//	    System.out.println(client.getServerStats(new Server("localhost:8081")));		
 	}
 }
