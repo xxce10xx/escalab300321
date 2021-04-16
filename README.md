@@ -26,3 +26,9 @@ Clase 05 (Hystrix)
 -Implementando circuit breaker con hystrix
 -Decorando métodos con @HystrixCommand y definiendo el método fallback
 -Configurando hystrix command properties
+
+Clase 06 (Zuul)
+-¿Qué es un Edge Server y para qué nos sirve?
+-Levantando nuestro primer servidor perimetral (Edge Server) con Zuul
+-Entendiendo el enrrutamiento de peticiones en Zuul mediante archivos de configuración (.properties, .yml)
+-Entendiendo los filtros de Zuul
