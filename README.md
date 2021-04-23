@@ -32,3 +32,8 @@ Clase 06 (Zuul)
 -Levantando nuestro primer servidor perimetral (Edge Server) con Zuul
 -Entendiendo el enrrutamiento de peticiones en Zuul mediante archivos de configuración (.properties, .yml)
 -Entendiendo los filtros de Zuul
+
+Clase 07 (Zuul, Oauth2)
+-Propiedades adicionales para configurar nuestro servidor perimetral (método fallback)
+-Entendiendo el protocolo Oauth2
+-Entendiendo el grant_type Authorization Code e Implicit
