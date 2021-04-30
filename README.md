@@ -37,3 +37,12 @@ Clase 07 (Zuul, Oauth2)
 -Propiedades adicionales para configurar nuestro servidor perimetral (método fallback)
 -Entendiendo el protocolo Oauth2
 -Entendiendo el grant_type Authorization Code e Implicit
+
+Clase 08 (Oauth2)
+-Entendiendo el grant_type Password, Client Credentials y Refresh Token
+-Entendido como securizar nuestros microservicios
+
+Clase 09 (UAA)
+-Levantando nuestro Authorization Server
+-Configurando clientes y usuarios en BBDD 
+-Configurando TokenStore, TokenEnhancer, RefreshToken
