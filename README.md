@@ -46,3 +46,9 @@ Clase 09 (UAA)
 -Levantando nuestro Authorization Server
 -Configurando clientes y usuarios en BBDD 
 -Configurando TokenStore, TokenEnhancer, RefreshToken
+
+Clase 10 (UAA y Resource Server)
+-Configurando customFilters, scopes, revoke token
+-Securizando nuestros microservicios
+-Configurando roles y CORS
+-Integrando nuestra configuración de seguridad para la arquitectura basada en microservicios
