@@ -52,3 +52,8 @@ Clase 10 (UAA y Resource Server)
 -Securizando nuestros microservicios
 -Configurando roles y CORS
 -Integrando nuestra configuración de seguridad para la arquitectura basada en microservicios
+
+Clase 11 (API Facade Composition)
+-Aprendimos un poco de Feign
+-Explicamos el patrón SAGA por orquestación y coreografia
+-Explicamos y ejemplificamos el patrón API Facade Composition
