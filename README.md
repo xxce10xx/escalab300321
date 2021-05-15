@@ -57,3 +57,8 @@ Clase 11 (API Facade Composition)
 -Aprendimos un poco de Feign
 -Explicamos el patrón SAGA por orquestación y coreografia
 -Explicamos y ejemplificamos el patrón API Facade Composition
+
+Clase 12 (Zipkin y Sleuth)
+-Explicando el patrón CQRS
+-Trazabilidad distribuida con Zipkin y Sleuth
+-Ejemplificando Zipkin y Sleuth
