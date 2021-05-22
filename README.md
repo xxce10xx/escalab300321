@@ -62,3 +62,10 @@ Clase 12 (Zipkin y Sleuth)
 -Explicando el patrón CQRS
 -Trazabilidad distribuida con Zipkin y Sleuth
 -Ejemplificando Zipkin y Sleuth
+
+Clase 13 (SAGA, Angular)
+-Ejemplificamos el patrón SAGA por orquestación
+-Vimos múltiple router-outlet en Angular
+-Vimos Interceptores en Angular
+-Vimos Lazy Loading en Angular
+-Vimos Guardines en Angular

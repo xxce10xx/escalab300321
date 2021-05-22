@@ -1,0 +1,1 @@
+https://codesandbox.io/s/github/techiediaries/angular-router-demo/tree/master/?from-embed=&file=/src/app/app.component.html
